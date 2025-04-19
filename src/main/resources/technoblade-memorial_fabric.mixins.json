@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.example.technomemorial.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PigEntityRendererMixin",
+    "PigCrownRendererMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
