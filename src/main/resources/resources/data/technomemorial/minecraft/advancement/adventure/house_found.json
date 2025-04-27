@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "found_house": {
+      "trigger": "minecraft:located_structure",
+      "conditions": {
+        "structure": "technomemorial:house"
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "translate": "advancements.technomemorial.found_house.title"
+    },
+    "description": {
+      "translate": "advancements.technomemorial.found_house.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  }
+}

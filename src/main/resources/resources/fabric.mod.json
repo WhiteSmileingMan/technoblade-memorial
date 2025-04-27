@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "technoblade-memorial",
+  "version": "1.02",
+  "name": "Technoblade-Memorial",
+  "description": "Turns a pig texture to Technoblade's skin when they're named \"Technoblade\"",
+  "authors": [
+    "WhiteSmileingMan"
+  ],
+  "contact": {
+    "repo": "https://github.com/WhiteSmielingMan/Technoblade_Memorial"
+  },
+  "license": "MIT",
+  "icon": "assets/technoblade-memorial/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "technoblade-memorial_fabric.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=0.16.9"
+  }
+}

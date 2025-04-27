@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "technomemorial:house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1642136474,
+    "spacing": 50,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

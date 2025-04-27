@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:jigsaw",
+  "name": "technomemorial:house/start_pool",   // Pool name, should match the reference in your structure generation JSON
+  "fallback": "minecraft:empty",               // Fallback pool, if there's no match
+  "elements": [                                // Structure elements in this pool
+    {
+      "weight": 1,                             // Weight for random distribution
+      "element": {                             // The structure itself
+        "location": "technomemorial:house",    // Location of the structure (must match an NBT file)
+        "processors": "minecraft:empty",       // Processor for the structure (use "minecraft:empty" if none)
+        "projection": "rigid",                 // Projection type
+        "element_type": "minecraft:single_pool_element" // Element type: single pool element
+      }
+    }
+  ]
+}
